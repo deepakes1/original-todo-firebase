@@ -6,7 +6,7 @@ import { useRef } from 'react'
 
  import { SignedIn, SignedOut, SignInButton, UserButton, useUser, useAuth } from "@clerk/clerk-react";
 
-const firebaseUrl = "https://todo-project-eba02-default-rtdb.asia-southeast1.firebasedatabase.app/"
+const firebaseUrl = "https://todo-host-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
 function App() {
   let taskInput = useRef();
