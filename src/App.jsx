@@ -72,7 +72,7 @@ function App() {
 
 
     <SignedIn>
-        <div className="w-[500px] mx-auto mt-10">
+        <div className="w-full md:w-[500px] p-3 mx-auto mt-10">
           <div >
               <h1 className="text-3xl font-bold">Manage your tasks</h1>
               <p className='text-lg mt-1 mb-1'>The time for Action is now. It's never too late to do something!</p>
